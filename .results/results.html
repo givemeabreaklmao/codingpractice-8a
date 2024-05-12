@@ -1,0 +1,560 @@
+<html lang="en"><head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>ccbp test reporter</title>
+            <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+	        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+            <script src="https://kit.fontawesome.com/522ee478c4.js" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.3.0/alpine.js"></script>
+            <script src="js/view.js"></script>
+        </head><body><div id="test-results">{
+  &quot;numFailedTestSuites&quot;: 1,
+  &quot;numFailedTests&quot;: 11,
+  &quot;numPassedTestSuites&quot;: 0,
+  &quot;numPassedTests&quot;: 3,
+  &quot;numPendingTestSuites&quot;: 0,
+  &quot;numPendingTests&quot;: 0,
+  &quot;numRuntimeErrorTestSuites&quot;: 0,
+  &quot;numTodoTests&quot;: 0,
+  &quot;numTotalTestSuites&quot;: 1,
+  &quot;numTotalTests&quot;: 14,
+  &quot;openHandles&quot;: [],
+  &quot;snapshot&quot;: {
+    &quot;added&quot;: 0,
+    &quot;didUpdate&quot;: false,
+    &quot;failure&quot;: false,
+    &quot;filesAdded&quot;: 0,
+    &quot;filesRemoved&quot;: 0,
+    &quot;filesRemovedList&quot;: [],
+    &quot;filesUnmatched&quot;: 0,
+    &quot;filesUpdated&quot;: 0,
+    &quot;matched&quot;: 0,
+    &quot;total&quot;: 0,
+    &quot;unchecked&quot;: 0,
+    &quot;uncheckedKeysByFile&quot;: [],
+    &quot;unmatched&quot;: 0,
+    &quot;updated&quot;: 0
+  },
+  &quot;startTime&quot;: 1715516535634,
+  &quot;success&quot;: false,
+  &quot;testResults&quot;: [
+    {
+      &quot;leaks&quot;: false,
+      &quot;numFailingTests&quot;: 11,
+      &quot;numPassingTests&quot;: 3,
+      &quot;numPendingTests&quot;: 0,
+      &quot;numTodoTests&quot;: 0,
+      &quot;openHandles&quot;: [],
+      &quot;perfStats&quot;: {
+        &quot;end&quot;: 1715516543624,
+        &quot;runtime&quot;: 5499,
+        &quot;slow&quot;: true,
+        &quot;start&quot;: 1715516538125
+      },
+      &quot;skipped&quot;: false,
+      &quot;snapshot&quot;: {
+        &quot;added&quot;: 0,
+        &quot;fileDeleted&quot;: false,
+        &quot;matched&quot;: 0,
+        &quot;unchecked&quot;: 0,
+        &quot;unmatched&quot;: 0,
+        &quot;updated&quot;: 0,
+        &quot;uncheckedKeys&quot;: []
+      },
+      &quot;testFilePath&quot;: &quot;/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/index.test.js&quot;,
+      &quot;testResults&quot;: [
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Todo Application database&quot;
+          ],
+          &quot;duration&quot;: 2,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Todo Application databaseAn Express instance should be exported from the &#x27;app.js&#x27; file using the default export syntax&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;An Express instance should be exported from the &#x27;app.js&#x27; file using the default export syntax&quot;,
+          &quot;id&quot;: &quot;NJSCPRHNKY_TEST_1&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Todo Application database&quot;
+          ],
+          &quot;duration&quot;: 186,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {
+                &quot;expected&quot;: [
+                  {
+                    &quot;id&quot;: 2,
+                    &quot;todo&quot;: &quot;Buy a Car&quot;,
+                    &quot;priority&quot;: &quot;MEDIUM&quot;,
+                    &quot;status&quot;: &quot;TO DO&quot;
+                  },
+                  {
+                    &quot;id&quot;: 3,
+                    &quot;todo&quot;: &quot;Clean the garden&quot;,
+                    &quot;priority&quot;: &quot;LOW&quot;,
+                    &quot;status&quot;: &quot;TO DO&quot;
+                  },
+                  {
+                    &quot;id&quot;: 5,
+                    &quot;todo&quot;: &quot;Attend a ceremony&quot;,
+                    &quot;priority&quot;: &quot;LOW&quot;,
+                    &quot;status&quot;: &quot;TO DO&quot;
+                  }
+                ],
+                &quot;actual&quot;: [
+                  {
+                    &quot;id&quot;: 1,
+                    &quot;todo&quot;: &quot;Learn Node JS&quot;,
+                    &quot;priority&quot;: &quot;HIGH&quot;,
+                    &quot;status&quot;: &quot;IN PROGRESS&quot;
+                  },
+                  {
+                    &quot;id&quot;: 2,
+                    &quot;todo&quot;: &quot;Buy a Car&quot;,
+                    &quot;priority&quot;: &quot;MEDIUM&quot;,
+                    &quot;status&quot;: &quot;TO DO&quot;
+                  },
+                  {
+                    &quot;id&quot;: 3,
+                    &quot;todo&quot;: &quot;Clean the garden&quot;,
+                    &quot;priority&quot;: &quot;LOW&quot;,
+                    &quot;status&quot;: &quot;TO DO&quot;
+                  },
+                  {
+                    &quot;id&quot;: 4,
+                    &quot;todo&quot;: &quot;Play video games&quot;,
+                    &quot;priority&quot;: &quot;MEDIUM&quot;,
+                    &quot;status&quot;: &quot;DONE&quot;
+                  },
+                  {
+                    &quot;id&quot;: 5,
+                    &quot;todo&quot;: &quot;Attend a ceremony&quot;,
+                    &quot;priority&quot;: &quot;LOW&quot;,
+                    &quot;status&quot;: &quot;TO DO&quot;
+                  }
+                ],
+                &quot;showDiff&quot;: true
+              },
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;Error: expected [\n  { id: 2, todo: &#x27;Buy a Car&#x27;, priority: &#x27;MEDIUM&#x27;, status: &#x27;TO DO&#x27; },\n  { id: 3, todo: &#x27;Clean the garden&#x27;, priority: &#x27;LOW&#x27;, status: &#x27;TO DO&#x27; },\n  {\n    id: 5,\n    todo: &#x27;Attend a ceremony&#x27;,\n    priority: &#x27;LOW&#x27;,\n    status: &#x27;TO DO&#x27;\n  }\n] response body, got [\n  {\n    id: 1,\n    todo: &#x27;Learn Node JS&#x27;,\n    priority: &#x27;HIGH&#x27;,\n    status: &#x27;IN PROGRESS&#x27;\n  },\n  { id: 2, todo: &#x27;Buy a Car&#x27;, priority: &#x27;MEDIUM&#x27;, status: &#x27;TO DO&#x27; },\n  { id: 3, todo: &#x27;Clean the garden&#x27;, priority: &#x27;LOW&#x27;, status: &#x27;TO DO&#x27; },\n  {\n    id: 4,\n    todo: &#x27;Play video games&#x27;,\n    priority: &#x27;MEDIUM&#x27;,\n    status: &#x27;DONE&#x27;\n  },\n  {\n    id: 5,\n    todo: &#x27;Attend a ceremony&#x27;,\n    priority: &#x27;LOW&#x27;,\n    status: &#x27;TO DO&#x27;\n  }\n]&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;Error: expected [\n  { id: 2, todo: &#x27;Buy a Car&#x27;, priority: &#x27;MEDIUM&#x27;, status: &#x27;TO DO&#x27; },\n  { id: 3, todo: &#x27;Clean the garden&#x27;, priority: &#x27;LOW&#x27;, status: &#x27;TO DO&#x27; },\n  {\n    id: 5,\n    todo: &#x27;Attend a ceremony&#x27;,\n    priority: &#x27;LOW&#x27;,\n    status: &#x27;TO DO&#x27;\n  }\n] response body, got [\n  {\n    id: 1,\n    todo: &#x27;Learn Node JS&#x27;,\n    priority: &#x27;HIGH&#x27;,\n    status: &#x27;IN PROGRESS&#x27;\n  },\n  { id: 2, todo: &#x27;Buy a Car&#x27;, priority: &#x27;MEDIUM&#x27;, status: &#x27;TO DO&#x27; },\n  { id: 3, todo: &#x27;Clean the garden&#x27;, priority: &#x27;LOW&#x27;, status: &#x27;TO DO&#x27; },\n  {\n    id: 4,\n    todo: &#x27;Play video games&#x27;,\n    priority: &#x27;MEDIUM&#x27;,\n    status: &#x27;DONE&#x27;\n  },\n  {\n    id: 5,\n    todo: &#x27;Attend a ceremony&#x27;,\n    priority: &#x27;LOW&#x27;,\n    status: &#x27;TO DO&#x27;\n  }\n]\n    at Object.&lt;anonymous&gt; (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/index.test.js:35:8)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n----\n    at error (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:329:13)\n    at Test.Object.&lt;anonymous&gt;.Test._assertBody (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:233:14)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n    at Test.Object.&lt;anonymous&gt;.Test.assert (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n    at Server.localAssert (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;Error: expected [\n  { id: 2, todo: &#x27;Buy a Car&#x27;, priority: &#x27;MEDIUM&#x27;, status: &#x27;TO DO&#x27; },\n  { id: 3, todo: &#x27;Clean the garden&#x27;, priority: &#x27;LOW&#x27;, status: &#x27;TO DO&#x27; },\n  {\n    id: 5,\n    todo: &#x27;Attend a ceremony&#x27;,\n    priority: &#x27;LOW&#x27;,\n    status: &#x27;TO DO&#x27;\n  }\n] response body, got [\n  {\n    id: 1,\n    todo: &#x27;Learn Node JS&#x27;,\n    priority: &#x27;HIGH&#x27;,\n    status: &#x27;IN PROGRESS&#x27;\n  },\n  { id: 2, todo: &#x27;Buy a Car&#x27;, priority: &#x27;MEDIUM&#x27;, status: &#x27;TO DO&#x27; },\n  { id: 3, todo: &#x27;Clean the garden&#x27;, priority: &#x27;LOW&#x27;, status: &#x27;TO DO&#x27; },\n  {\n    id: 4,\n    todo: &#x27;Play video games&#x27;,\n    priority: &#x27;MEDIUM&#x27;,\n    status: &#x27;DONE&#x27;\n  },\n  {\n    id: 5,\n    todo: &#x27;Attend a ceremony&#x27;,\n    priority: &#x27;LOW&#x27;,\n    status: &#x27;TO DO&#x27;\n  }\n]\n    at Object.&lt;anonymous&gt; (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/index.test.js:35:8)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n----\n    at error (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:329:13)\n    at Test.Object.&lt;anonymous&gt;.Test._assertBody (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:233:14)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n    at Test.Object.&lt;anonymous&gt;.Test.assert (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n    at Server.localAssert (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Todo Application databaseThe GET request with path &#x27;/todos/?status=TO%20DO&#x27; should return the list of all todos whose status is &#x27;TO DO&#x27; as a response&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The GET request with path &#x27;/todos/?status=TO%20DO&#x27; should return the list of all todos whose status is &#x27;TO DO&#x27; as a response&quot;,
+          &quot;id&quot;: &quot;NJSCPRHNKY_TEST_2&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Todo Application database&quot;
+          ],
+          &quot;duration&quot;: 5,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {
+                &quot;expected&quot;: [
+                  {
+                    &quot;id&quot;: 1,
+                    &quot;todo&quot;: &quot;Learn Node JS&quot;,
+                    &quot;priority&quot;: &quot;HIGH&quot;,
+                    &quot;status&quot;: &quot;IN PROGRESS&quot;
+                  }
+                ],
+                &quot;actual&quot;: [
+                  {
+                    &quot;id&quot;: 1,
+                    &quot;todo&quot;: &quot;Learn Node JS&quot;,
+                    &quot;priority&quot;: &quot;HIGH&quot;,
+                    &quot;status&quot;: &quot;IN PROGRESS&quot;
+                  },
+                  {
+                    &quot;id&quot;: 2,
+                    &quot;todo&quot;: &quot;Buy a Car&quot;,
+                    &quot;priority&quot;: &quot;MEDIUM&quot;,
+                    &quot;status&quot;: &quot;TO DO&quot;
+                  },
+                  {
+                    &quot;id&quot;: 3,
+                    &quot;todo&quot;: &quot;Clean the garden&quot;,
+                    &quot;priority&quot;: &quot;LOW&quot;,
+                    &quot;status&quot;: &quot;TO DO&quot;
+                  },
+                  {
+                    &quot;id&quot;: 4,
+                    &quot;todo&quot;: &quot;Play video games&quot;,
+                    &quot;priority&quot;: &quot;MEDIUM&quot;,
+                    &quot;status&quot;: &quot;DONE&quot;
+                  },
+                  {
+                    &quot;id&quot;: 5,
+                    &quot;todo&quot;: &quot;Attend a ceremony&quot;,
+                    &quot;priority&quot;: &quot;LOW&quot;,
+                    &quot;status&quot;: &quot;TO DO&quot;
+                  }
+                ],
+                &quot;showDiff&quot;: true
+              },
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;Error: expected [\n  {\n    id: 1,\n    todo: &#x27;Learn Node JS&#x27;,\n    priority: &#x27;HIGH&#x27;,\n    status: &#x27;IN PROGRESS&#x27;\n  }\n] response body, got [\n  {\n    id: 1,\n    todo: &#x27;Learn Node JS&#x27;,\n    priority: &#x27;HIGH&#x27;,\n    status: &#x27;IN PROGRESS&#x27;\n  },\n  { id: 2, todo: &#x27;Buy a Car&#x27;, priority: &#x27;MEDIUM&#x27;, status: &#x27;TO DO&#x27; },\n  { id: 3, todo: &#x27;Clean the garden&#x27;, priority: &#x27;LOW&#x27;, status: &#x27;TO DO&#x27; },\n  {\n    id: 4,\n    todo: &#x27;Play video games&#x27;,\n    priority: &#x27;MEDIUM&#x27;,\n    status: &#x27;DONE&#x27;\n  },\n  {\n    id: 5,\n    todo: &#x27;Attend a ceremony&#x27;,\n    priority: &#x27;LOW&#x27;,\n    status: &#x27;TO DO&#x27;\n  }\n]&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;Error: expected [\n  {\n    id: 1,\n    todo: &#x27;Learn Node JS&#x27;,\n    priority: &#x27;HIGH&#x27;,\n    status: &#x27;IN PROGRESS&#x27;\n  }\n] response body, got [\n  {\n    id: 1,\n    todo: &#x27;Learn Node JS&#x27;,\n    priority: &#x27;HIGH&#x27;,\n    status: &#x27;IN PROGRESS&#x27;\n  },\n  { id: 2, todo: &#x27;Buy a Car&#x27;, priority: &#x27;MEDIUM&#x27;, status: &#x27;TO DO&#x27; },\n  { id: 3, todo: &#x27;Clean the garden&#x27;, priority: &#x27;LOW&#x27;, status: &#x27;TO DO&#x27; },\n  {\n    id: 4,\n    todo: &#x27;Play video games&#x27;,\n    priority: &#x27;MEDIUM&#x27;,\n    status: &#x27;DONE&#x27;\n  },\n  {\n    id: 5,\n    todo: &#x27;Attend a ceremony&#x27;,\n    priority: &#x27;LOW&#x27;,\n    status: &#x27;TO DO&#x27;\n  }\n]\n    at Object.&lt;anonymous&gt; (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/index.test.js:64:8)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n----\n    at error (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:329:13)\n    at Test.Object.&lt;anonymous&gt;.Test._assertBody (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:233:14)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n    at Test.Object.&lt;anonymous&gt;.Test.assert (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n    at Server.localAssert (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;Error: expected [\n  {\n    id: 1,\n    todo: &#x27;Learn Node JS&#x27;,\n    priority: &#x27;HIGH&#x27;,\n    status: &#x27;IN PROGRESS&#x27;\n  }\n] response body, got [\n  {\n    id: 1,\n    todo: &#x27;Learn Node JS&#x27;,\n    priority: &#x27;HIGH&#x27;,\n    status: &#x27;IN PROGRESS&#x27;\n  },\n  { id: 2, todo: &#x27;Buy a Car&#x27;, priority: &#x27;MEDIUM&#x27;, status: &#x27;TO DO&#x27; },\n  { id: 3, todo: &#x27;Clean the garden&#x27;, priority: &#x27;LOW&#x27;, status: &#x27;TO DO&#x27; },\n  {\n    id: 4,\n    todo: &#x27;Play video games&#x27;,\n    priority: &#x27;MEDIUM&#x27;,\n    status: &#x27;DONE&#x27;\n  },\n  {\n    id: 5,\n    todo: &#x27;Attend a ceremony&#x27;,\n    priority: &#x27;LOW&#x27;,\n    status: &#x27;TO DO&#x27;\n  }\n]\n    at Object.&lt;anonymous&gt; (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/index.test.js:64:8)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n----\n    at error (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:329:13)\n    at Test.Object.&lt;anonymous&gt;.Test._assertBody (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:233:14)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n    at Test.Object.&lt;anonymous&gt;.Test.assert (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n    at Server.localAssert (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Todo Application databaseThe GET request with path &#x27;/todos/?priority=HIGH&#x27; should return the list of all todos whose priority is &#x27;HIGH&#x27; as a response&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The GET request with path &#x27;/todos/?priority=HIGH&#x27; should return the list of all todos whose priority is &#x27;HIGH&#x27; as a response&quot;,
+          &quot;id&quot;: &quot;NJSCPRHNKY_TEST_3&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Todo Application database&quot;
+          ],
+          &quot;duration&quot;: 4,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {
+                &quot;expected&quot;: [
+                  {
+                    &quot;id&quot;: 1,
+                    &quot;todo&quot;: &quot;Learn Node JS&quot;,
+                    &quot;priority&quot;: &quot;HIGH&quot;,
+                    &quot;status&quot;: &quot;IN PROGRESS&quot;
+                  }
+                ],
+                &quot;actual&quot;: [
+                  {
+                    &quot;id&quot;: 1,
+                    &quot;todo&quot;: &quot;Learn Node JS&quot;,
+                    &quot;priority&quot;: &quot;HIGH&quot;,
+                    &quot;status&quot;: &quot;IN PROGRESS&quot;
+                  },
+                  {
+                    &quot;id&quot;: 2,
+                    &quot;todo&quot;: &quot;Buy a Car&quot;,
+                    &quot;priority&quot;: &quot;MEDIUM&quot;,
+                    &quot;status&quot;: &quot;TO DO&quot;
+                  },
+                  {
+                    &quot;id&quot;: 3,
+                    &quot;todo&quot;: &quot;Clean the garden&quot;,
+                    &quot;priority&quot;: &quot;LOW&quot;,
+                    &quot;status&quot;: &quot;TO DO&quot;
+                  },
+                  {
+                    &quot;id&quot;: 4,
+                    &quot;todo&quot;: &quot;Play video games&quot;,
+                    &quot;priority&quot;: &quot;MEDIUM&quot;,
+                    &quot;status&quot;: &quot;DONE&quot;
+                  },
+                  {
+                    &quot;id&quot;: 5,
+                    &quot;todo&quot;: &quot;Attend a ceremony&quot;,
+                    &quot;priority&quot;: &quot;LOW&quot;,
+                    &quot;status&quot;: &quot;TO DO&quot;
+                  }
+                ],
+                &quot;showDiff&quot;: true
+              },
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;Error: expected [\n  {\n    id: 1,\n    todo: &#x27;Learn Node JS&#x27;,\n    priority: &#x27;HIGH&#x27;,\n    status: &#x27;IN PROGRESS&#x27;\n  }\n] response body, got [\n  {\n    id: 1,\n    todo: &#x27;Learn Node JS&#x27;,\n    priority: &#x27;HIGH&#x27;,\n    status: &#x27;IN PROGRESS&#x27;\n  },\n  { id: 2, todo: &#x27;Buy a Car&#x27;, priority: &#x27;MEDIUM&#x27;, status: &#x27;TO DO&#x27; },\n  { id: 3, todo: &#x27;Clean the garden&#x27;, priority: &#x27;LOW&#x27;, status: &#x27;TO DO&#x27; },\n  {\n    id: 4,\n    todo: &#x27;Play video games&#x27;,\n    priority: &#x27;MEDIUM&#x27;,\n    status: &#x27;DONE&#x27;\n  },\n  {\n    id: 5,\n    todo: &#x27;Attend a ceremony&#x27;,\n    priority: &#x27;LOW&#x27;,\n    status: &#x27;TO DO&#x27;\n  }\n]&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;Error: expected [\n  {\n    id: 1,\n    todo: &#x27;Learn Node JS&#x27;,\n    priority: &#x27;HIGH&#x27;,\n    status: &#x27;IN PROGRESS&#x27;\n  }\n] response body, got [\n  {\n    id: 1,\n    todo: &#x27;Learn Node JS&#x27;,\n    priority: &#x27;HIGH&#x27;,\n    status: &#x27;IN PROGRESS&#x27;\n  },\n  { id: 2, todo: &#x27;Buy a Car&#x27;, priority: &#x27;MEDIUM&#x27;, status: &#x27;TO DO&#x27; },\n  { id: 3, todo: &#x27;Clean the garden&#x27;, priority: &#x27;LOW&#x27;, status: &#x27;TO DO&#x27; },\n  {\n    id: 4,\n    todo: &#x27;Play video games&#x27;,\n    priority: &#x27;MEDIUM&#x27;,\n    status: &#x27;DONE&#x27;\n  },\n  {\n    id: 5,\n    todo: &#x27;Attend a ceremony&#x27;,\n    priority: &#x27;LOW&#x27;,\n    status: &#x27;TO DO&#x27;\n  }\n]\n    at Object.&lt;anonymous&gt; (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/index.test.js:81:8)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n----\n    at error (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:329:13)\n    at Test.Object.&lt;anonymous&gt;.Test._assertBody (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:233:14)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n    at Test.Object.&lt;anonymous&gt;.Test.assert (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n    at Server.localAssert (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;Error: expected [\n  {\n    id: 1,\n    todo: &#x27;Learn Node JS&#x27;,\n    priority: &#x27;HIGH&#x27;,\n    status: &#x27;IN PROGRESS&#x27;\n  }\n] response body, got [\n  {\n    id: 1,\n    todo: &#x27;Learn Node JS&#x27;,\n    priority: &#x27;HIGH&#x27;,\n    status: &#x27;IN PROGRESS&#x27;\n  },\n  { id: 2, todo: &#x27;Buy a Car&#x27;, priority: &#x27;MEDIUM&#x27;, status: &#x27;TO DO&#x27; },\n  { id: 3, todo: &#x27;Clean the garden&#x27;, priority: &#x27;LOW&#x27;, status: &#x27;TO DO&#x27; },\n  {\n    id: 4,\n    todo: &#x27;Play video games&#x27;,\n    priority: &#x27;MEDIUM&#x27;,\n    status: &#x27;DONE&#x27;\n  },\n  {\n    id: 5,\n    todo: &#x27;Attend a ceremony&#x27;,\n    priority: &#x27;LOW&#x27;,\n    status: &#x27;TO DO&#x27;\n  }\n]\n    at Object.&lt;anonymous&gt; (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/index.test.js:81:8)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n----\n    at error (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:329:13)\n    at Test.Object.&lt;anonymous&gt;.Test._assertBody (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:233:14)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n    at Test.Object.&lt;anonymous&gt;.Test.assert (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n    at Server.localAssert (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Todo Application databaseThe GET request with path &#x27;/todos/?priority=HIGH&amp;status=IN%20PROGRESS&#x27; should return the list of all todos whose priority is &#x27;HIGH&#x27; and status is &#x27;IN PROGRESS&#x27; as a response&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The GET request with path &#x27;/todos/?priority=HIGH&amp;status=IN%20PROGRESS&#x27; should return the list of all todos whose priority is &#x27;HIGH&#x27; and status is &#x27;IN PROGRESS&#x27; as a response&quot;,
+          &quot;id&quot;: &quot;NJSCPRHNKY_TEST_4&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Todo Application database&quot;
+          ],
+          &quot;duration&quot;: 3,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Todo Application databaseThe GET request with path &#x27;/todos/?search_q=Play&#x27; should return the list of all todos whose todo contains &#x27;Play&#x27; text as a response&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The GET request with path &#x27;/todos/?search_q=Play&#x27; should return the list of all todos whose todo contains &#x27;Play&#x27; text as a response&quot;,
+          &quot;id&quot;: &quot;NJSCPRHNKY_TEST_5&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Todo Application database&quot;
+          ],
+          &quot;duration&quot;: 4,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;Error: expected 200 \&quot;OK\&quot;, got 404 \&quot;Not Found\&quot;&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;Error: expected 200 \&quot;OK\&quot;, got 404 \&quot;Not Found\&quot;\n    at Object.&lt;anonymous&gt; (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/index.test.js:113:8)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n----\n    at Test.Object.&lt;anonymous&gt;.Test._assertStatus (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:296:12)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n    at Test.Object.&lt;anonymous&gt;.Test.assert (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n    at Server.localAssert (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;Error: expected 200 \&quot;OK\&quot;, got 404 \&quot;Not Found\&quot;\n    at Object.&lt;anonymous&gt; (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/index.test.js:113:8)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n----\n    at Test.Object.&lt;anonymous&gt;.Test._assertStatus (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:296:12)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n    at Test.Object.&lt;anonymous&gt;.Test.assert (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n    at Server.localAssert (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Todo Application databaseThe GET request with path &#x27;/todos/:todoId/&#x27; should return a specific todo based on the todo ID as a response&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The GET request with path &#x27;/todos/:todoId/&#x27; should return a specific todo based on the todo ID as a response&quot;,
+          &quot;id&quot;: &quot;NJSCPRHNKY_TEST_6&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Todo Application database&quot;
+          ],
+          &quot;duration&quot;: 91,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;Error: expected 200 \&quot;OK\&quot;, got 404 \&quot;Not Found\&quot;&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;Error: expected 200 \&quot;OK\&quot;, got 404 \&quot;Not Found\&quot;\n    at Object.&lt;anonymous&gt; (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/index.test.js:134:8)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n----\n    at Test.Object.&lt;anonymous&gt;.Test._assertStatus (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:296:12)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n    at Test.Object.&lt;anonymous&gt;.Test.assert (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n    at Server.localAssert (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;Error: expected 200 \&quot;OK\&quot;, got 404 \&quot;Not Found\&quot;\n    at Object.&lt;anonymous&gt; (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/index.test.js:134:8)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n----\n    at Test.Object.&lt;anonymous&gt;.Test._assertStatus (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:296:12)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n    at Test.Object.&lt;anonymous&gt;.Test.assert (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n    at Server.localAssert (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Todo Application databaseThe POST request with path &#x27;/todos/&#x27; should return the &#x27;Todo Successfully Added&#x27; text as a response upon success&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The POST request with path &#x27;/todos/&#x27; should return the &#x27;Todo Successfully Added&#x27; text as a response upon success&quot;,
+          &quot;id&quot;: &quot;NJSCPRHNKY_TEST_7&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Todo Application database&quot;
+          ],
+          &quot;duration&quot;: 3,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {
+                &quot;matcherResult&quot;: {
+                  &quot;expected&quot;: {
+                    &quot;id&quot;: 6,
+                    &quot;todo&quot;: &quot;Watch Movie&quot;,
+                    &quot;priority&quot;: &quot;MEDIUM&quot;,
+                    &quot;status&quot;: &quot;TO DO&quot;
+                  },
+                  &quot;name&quot;: &quot;toEqual&quot;,
+                  &quot;pass&quot;: false
+                }
+              },
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;Error: expect(received).toEqual(expected) // deep equality\n\nExpected: {\&quot;id\&quot;: 6, \&quot;priority\&quot;: \&quot;MEDIUM\&quot;, \&quot;status\&quot;: \&quot;TO DO\&quot;, \&quot;todo\&quot;: \&quot;Watch Movie\&quot;}\nReceived: undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;Error: expect(received).toEqual(expected) // deep equality\n\nExpected: {\&quot;id\&quot;: 6, \&quot;priority\&quot;: \&quot;MEDIUM\&quot;, \&quot;status\&quot;: \&quot;TO DO\&quot;, \&quot;todo\&quot;: \&quot;Watch Movie\&quot;}\nReceived: undefined\n    at Object.&lt;anonymous&gt; (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/index.test.js:141:65)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;Error: expect(received).toEqual(expected) // deep equality\n\nExpected: {\&quot;id\&quot;: 6, \&quot;priority\&quot;: \&quot;MEDIUM\&quot;, \&quot;status\&quot;: \&quot;TO DO\&quot;, \&quot;todo\&quot;: \&quot;Watch Movie\&quot;}\nReceived: undefined\n    at Object.&lt;anonymous&gt; (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/index.test.js:141:65)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Todo Application databaseThe database should be updated on the post request&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The database should be updated on the post request&quot;,
+          &quot;id&quot;: &quot;NJSCPRHNKY_TEST_8&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Todo Application database&quot;
+          ],
+          &quot;duration&quot;: 4,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;Error: expected 200 \&quot;OK\&quot;, got 404 \&quot;Not Found\&quot;&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;Error: expected 200 \&quot;OK\&quot;, got 404 \&quot;Not Found\&quot;\n    at Object.&lt;anonymous&gt; (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/index.test.js:155:8)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n----\n    at Test.Object.&lt;anonymous&gt;.Test._assertStatus (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:296:12)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n    at Test.Object.&lt;anonymous&gt;.Test.assert (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n    at Server.localAssert (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;Error: expected 200 \&quot;OK\&quot;, got 404 \&quot;Not Found\&quot;\n    at Object.&lt;anonymous&gt; (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/index.test.js:155:8)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n----\n    at Test.Object.&lt;anonymous&gt;.Test._assertStatus (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:296:12)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n    at Test.Object.&lt;anonymous&gt;.Test.assert (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n    at Server.localAssert (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Todo Application databaseThe PUT request with path &#x27;/todos/:todoId/&#x27; with &#x27;status&#x27; property in the body should return the &#x27;Status Updated&#x27; text as a response upon success&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The PUT request with path &#x27;/todos/:todoId/&#x27; with &#x27;status&#x27; property in the body should return the &#x27;Status Updated&#x27; text as a response upon success&quot;,
+          &quot;id&quot;: &quot;NJSCPRHNKY_TEST_9&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Todo Application database&quot;
+          ],
+          &quot;duration&quot;: 3,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;Error: expected 200 \&quot;OK\&quot;, got 404 \&quot;Not Found\&quot;&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;Error: expected 200 \&quot;OK\&quot;, got 404 \&quot;Not Found\&quot;\n    at Object.&lt;anonymous&gt; (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/index.test.js:169:8)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n----\n    at Test.Object.&lt;anonymous&gt;.Test._assertStatus (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:296:12)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n    at Test.Object.&lt;anonymous&gt;.Test.assert (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n    at Server.localAssert (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;Error: expected 200 \&quot;OK\&quot;, got 404 \&quot;Not Found\&quot;\n    at Object.&lt;anonymous&gt; (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/index.test.js:169:8)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n----\n    at Test.Object.&lt;anonymous&gt;.Test._assertStatus (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:296:12)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n    at Test.Object.&lt;anonymous&gt;.Test.assert (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n    at Server.localAssert (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Todo Application databaseThe PUT request with path &#x27;/todos/:todoId/&#x27; with &#x27;priority&#x27; property in the body should return the &#x27;Priority Updated&#x27; text as a response upon success&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The PUT request with path &#x27;/todos/:todoId/&#x27; with &#x27;priority&#x27; property in the body should return the &#x27;Priority Updated&#x27; text as a response upon success&quot;,
+          &quot;id&quot;: &quot;NJSCPRHNKY_TEST_10&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Todo Application database&quot;
+          ],
+          &quot;duration&quot;: 84,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;Error: expected 200 \&quot;OK\&quot;, got 404 \&quot;Not Found\&quot;&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;Error: expected 200 \&quot;OK\&quot;, got 404 \&quot;Not Found\&quot;\n    at Object.&lt;anonymous&gt; (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/index.test.js:183:8)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n----\n    at Test.Object.&lt;anonymous&gt;.Test._assertStatus (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:296:12)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n    at Test.Object.&lt;anonymous&gt;.Test.assert (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n    at Server.localAssert (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;Error: expected 200 \&quot;OK\&quot;, got 404 \&quot;Not Found\&quot;\n    at Object.&lt;anonymous&gt; (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/index.test.js:183:8)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n----\n    at Test.Object.&lt;anonymous&gt;.Test._assertStatus (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:296:12)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n    at Test.Object.&lt;anonymous&gt;.Test.assert (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n    at Server.localAssert (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Todo Application databaseThe PUT request with path &#x27;/todos/:todoId/&#x27; with &#x27;todo&#x27; property in the body should return the &#x27;Todo Updated&#x27; text as a response upon success&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The PUT request with path &#x27;/todos/:todoId/&#x27; with &#x27;todo&#x27; property in the body should return the &#x27;Todo Updated&#x27; text as a response upon success&quot;,
+          &quot;id&quot;: &quot;NJSCPRHNKY_TEST_11&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Todo Application database&quot;
+          ],
+          &quot;duration&quot;: 1,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {
+                &quot;matcherResult&quot;: {
+                  &quot;expected&quot;: {
+                    &quot;id&quot;: 6,
+                    &quot;todo&quot;: &quot;Priority task&quot;,
+                    &quot;priority&quot;: &quot;HIGH&quot;,
+                    &quot;status&quot;: &quot;IN PROGRESS&quot;
+                  },
+                  &quot;name&quot;: &quot;toEqual&quot;,
+                  &quot;pass&quot;: false
+                }
+              },
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;Error: expect(received).toEqual(expected) // deep equality\n\nExpected: {\&quot;id\&quot;: 6, \&quot;priority\&quot;: \&quot;HIGH\&quot;, \&quot;status\&quot;: \&quot;IN PROGRESS\&quot;, \&quot;todo\&quot;: \&quot;Priority task\&quot;}\nReceived: undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;Error: expect(received).toEqual(expected) // deep equality\n\nExpected: {\&quot;id\&quot;: 6, \&quot;priority\&quot;: \&quot;HIGH\&quot;, \&quot;status\&quot;: \&quot;IN PROGRESS\&quot;, \&quot;todo\&quot;: \&quot;Priority task\&quot;}\nReceived: undefined\n    at Object.&lt;anonymous&gt; (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/index.test.js:191:65)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;Error: expect(received).toEqual(expected) // deep equality\n\nExpected: {\&quot;id\&quot;: 6, \&quot;priority\&quot;: \&quot;HIGH\&quot;, \&quot;status\&quot;: \&quot;IN PROGRESS\&quot;, \&quot;todo\&quot;: \&quot;Priority task\&quot;}\nReceived: undefined\n    at Object.&lt;anonymous&gt; (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/index.test.js:191:65)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Todo Application databaseThe database should be updated on the put request&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The database should be updated on the put request&quot;,
+          &quot;id&quot;: &quot;NJSCPRHNKY_TEST_12&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Todo Application database&quot;
+          ],
+          &quot;duration&quot;: 2,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;Error: expected 200 \&quot;OK\&quot;, got 404 \&quot;Not Found\&quot;&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;Error: expected 200 \&quot;OK\&quot;, got 404 \&quot;Not Found\&quot;\n    at Object.&lt;anonymous&gt; (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/index.test.js:202:8)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n----\n    at Test.Object.&lt;anonymous&gt;.Test._assertStatus (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:296:12)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n    at Test.Object.&lt;anonymous&gt;.Test.assert (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n    at Server.localAssert (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;Error: expected 200 \&quot;OK\&quot;, got 404 \&quot;Not Found\&quot;\n    at Object.&lt;anonymous&gt; (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/index.test.js:202:8)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n----\n    at Test.Object.&lt;anonymous&gt;.Test._assertStatus (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:296:12)\n    at /tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n    at Test.Object.&lt;anonymous&gt;.Test.assert (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n    at Server.localAssert (/tmp/81807b40-2e39-4c5f-9913-aed4fab809eb/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Todo Application databaseThe DELETE request with path &#x27;/todos/:todoId/&#x27; should return &#x27;Todo Deleted&#x27; text as a response upon success&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The DELETE request with path &#x27;/todos/:todoId/&#x27; should return &#x27;Todo Deleted&#x27; text as a response upon success&quot;,
+          &quot;id&quot;: &quot;NJSCPRHNKY_TEST_13&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Todo Application database&quot;
+          ],
+          &quot;duration&quot;: 1,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Operations on Todo Application databaseThe database should be updated on the delete request&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;The database should be updated on the delete request&quot;,
+          &quot;id&quot;: &quot;NJSCPRHNKY_TEST_14&quot;
+        }
+      ],
+      &quot;failureMessage&quot;: &quot;  ● :::NJSCPRHNKY_TEST_SUITE_1:::Tests for Operations on Todo Application database › :::NJSCPRHNKY_TEST_2:::The GET request with path &#x27;/todos/?status=TO%20DO&#x27; should return the list of all todos whose status is &#x27;TO DO&#x27; as a response\n\n    expected [\n      { id: 2, todo: &#x27;Buy a Car&#x27;, priority: &#x27;MEDIUM&#x27;, status: &#x27;TO DO&#x27; },\n      { id: 3, todo: &#x27;Clean the garden&#x27;, priority: &#x27;LOW&#x27;, status: &#x27;TO DO&#x27; },\n      {\n        id: 5,\n        todo: &#x27;Attend a ceremony&#x27;,\n        priority: &#x27;LOW&#x27;,\n        status: &#x27;TO DO&#x27;\n      }\n    ] response body, got [\n      {\n        id: 1,\n        todo: &#x27;Learn Node JS&#x27;,\n        priority: &#x27;HIGH&#x27;,\n        status: &#x27;IN PROGRESS&#x27;\n      },\n      { id: 2, todo: &#x27;Buy a Car&#x27;, priority: &#x27;MEDIUM&#x27;, status: &#x27;TO DO&#x27; },\n      { id: 3, todo: &#x27;Clean the garden&#x27;, priority: &#x27;LOW&#x27;, status: &#x27;TO DO&#x27; },\n      {\n        id: 4,\n        todo: &#x27;Play video games&#x27;,\n        priority: &#x27;MEDIUM&#x27;,\n        status: &#x27;DONE&#x27;\n      },\n      {\n        id: 5,\n        todo: &#x27;Attend a ceremony&#x27;,\n        priority: &#x27;LOW&#x27;,\n        status: &#x27;TO DO&#x27;\n      }\n    ]\n\n      33 |       .get(\&quot;/todos/?status=TO%20DO\&quot;)\n      34 |       .expect(200)\n    &gt; 35 |       .expect([\n         |        ^\n      36 |         {\n      37 |           id: 2,\n      38 |           todo: \&quot;Buy a Car\&quot;,\n\n      at Object.&lt;anonymous&gt; (index.test.js:35:8)\n      ----\n      at error (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:329:13)\n      at Test.Object.&lt;anonymous&gt;.Test._assertBody (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:233:14)\n      at node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n      at Test.Object.&lt;anonymous&gt;.Test._assertFunction (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n      at Test.Object.&lt;anonymous&gt;.Test.assert (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n      at Server.localAssert (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n\n  ● :::NJSCPRHNKY_TEST_SUITE_1:::Tests for Operations on Todo Application database › :::NJSCPRHNKY_TEST_3:::The GET request with path &#x27;/todos/?priority=HIGH&#x27; should return the list of all todos whose priority is &#x27;HIGH&#x27; as a response\n\n    expected [\n      {\n        id: 1,\n        todo: &#x27;Learn Node JS&#x27;,\n        priority: &#x27;HIGH&#x27;,\n        status: &#x27;IN PROGRESS&#x27;\n      }\n    ] response body, got [\n      {\n        id: 1,\n        todo: &#x27;Learn Node JS&#x27;,\n        priority: &#x27;HIGH&#x27;,\n        status: &#x27;IN PROGRESS&#x27;\n      },\n      { id: 2, todo: &#x27;Buy a Car&#x27;, priority: &#x27;MEDIUM&#x27;, status: &#x27;TO DO&#x27; },\n      { id: 3, todo: &#x27;Clean the garden&#x27;, priority: &#x27;LOW&#x27;, status: &#x27;TO DO&#x27; },\n      {\n        id: 4,\n        todo: &#x27;Play video games&#x27;,\n        priority: &#x27;MEDIUM&#x27;,\n        status: &#x27;DONE&#x27;\n      },\n      {\n        id: 5,\n        todo: &#x27;Attend a ceremony&#x27;,\n        priority: &#x27;LOW&#x27;,\n        status: &#x27;TO DO&#x27;\n      }\n    ]\n\n      62 |       .get(\&quot;/todos/?priority=HIGH\&quot;)\n      63 |       .expect(200)\n    &gt; 64 |       .expect([\n         |        ^\n      65 |         {\n      66 |           id: 1,\n      67 |           todo: \&quot;Learn Node JS\&quot;,\n\n      at Object.&lt;anonymous&gt; (index.test.js:64:8)\n      ----\n      at error (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:329:13)\n      at Test.Object.&lt;anonymous&gt;.Test._assertBody (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:233:14)\n      at node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n      at Test.Object.&lt;anonymous&gt;.Test._assertFunction (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n      at Test.Object.&lt;anonymous&gt;.Test.assert (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n      at Server.localAssert (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n\n  ● :::NJSCPRHNKY_TEST_SUITE_1:::Tests for Operations on Todo Application database › :::NJSCPRHNKY_TEST_4:::The GET request with path &#x27;/todos/?priority=HIGH&amp;status=IN%20PROGRESS&#x27; should return the list of all todos whose priority is &#x27;HIGH&#x27; and status is &#x27;IN PROGRESS&#x27; as a response\n\n    expected [\n      {\n        id: 1,\n        todo: &#x27;Learn Node JS&#x27;,\n        priority: &#x27;HIGH&#x27;,\n        status: &#x27;IN PROGRESS&#x27;\n      }\n    ] response body, got [\n      {\n        id: 1,\n        todo: &#x27;Learn Node JS&#x27;,\n        priority: &#x27;HIGH&#x27;,\n        status: &#x27;IN PROGRESS&#x27;\n      },\n      { id: 2, todo: &#x27;Buy a Car&#x27;, priority: &#x27;MEDIUM&#x27;, status: &#x27;TO DO&#x27; },\n      { id: 3, todo: &#x27;Clean the garden&#x27;, priority: &#x27;LOW&#x27;, status: &#x27;TO DO&#x27; },\n      {\n        id: 4,\n        todo: &#x27;Play video games&#x27;,\n        priority: &#x27;MEDIUM&#x27;,\n        status: &#x27;DONE&#x27;\n      },\n      {\n        id: 5,\n        todo: &#x27;Attend a ceremony&#x27;,\n        priority: &#x27;LOW&#x27;,\n        status: &#x27;TO DO&#x27;\n      }\n    ]\n\n      79 |       .get(\&quot;/todos/?priority=HIGH&amp;status=IN%20PROGRESS\&quot;)\n      80 |       .expect(200)\n    &gt; 81 |       .expect([\n         |        ^\n      82 |         {\n      83 |           id: 1,\n      84 |           todo: \&quot;Learn Node JS\&quot;,\n\n      at Object.&lt;anonymous&gt; (index.test.js:81:8)\n      ----\n      at error (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:329:13)\n      at Test.Object.&lt;anonymous&gt;.Test._assertBody (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:233:14)\n      at node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n      at Test.Object.&lt;anonymous&gt;.Test._assertFunction (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n      at Test.Object.&lt;anonymous&gt;.Test.assert (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n      at Server.localAssert (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n\n  ● :::NJSCPRHNKY_TEST_SUITE_1:::Tests for Operations on Todo Application database › :::NJSCPRHNKY_TEST_6:::The GET request with path &#x27;/todos/:todoId/&#x27; should return a specific todo based on the todo ID as a response\n\n    expected 200 \&quot;OK\&quot;, got 404 \&quot;Not Found\&quot;\n\n      111 |     appInstance\n      112 |       .get(\&quot;/todos/4\&quot;)\n    &gt; 113 |       .expect(200)\n          |        ^\n      114 |       .expect({\n      115 |         id: 4,\n      116 |         todo: \&quot;Play video games\&quot;,\n\n      at Object.&lt;anonymous&gt; (index.test.js:113:8)\n      ----\n      at Test.Object.&lt;anonymous&gt;.Test._assertStatus (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:296:12)\n      at node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n      at Test.Object.&lt;anonymous&gt;.Test._assertFunction (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n      at Test.Object.&lt;anonymous&gt;.Test.assert (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n      at Server.localAssert (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n\n  ● :::NJSCPRHNKY_TEST_SUITE_1:::Tests for Operations on Todo Application database › :::NJSCPRHNKY_TEST_7:::The POST request with path &#x27;/todos/&#x27; should return the &#x27;Todo Successfully Added&#x27; text as a response upon success\n\n    expected 200 \&quot;OK\&quot;, got 404 \&quot;Not Found\&quot;\n\n      132 |         status: \&quot;TO DO\&quot;,\n      133 |       })\n    &gt; 134 |       .expect(200)\n          |        ^\n      135 |       .expect(\&quot;Todo Successfully Added\&quot;)\n      136 |       .then((error, response) =&gt; {\n      137 |         done();\n\n      at Object.&lt;anonymous&gt; (index.test.js:134:8)\n      ----\n      at Test.Object.&lt;anonymous&gt;.Test._assertStatus (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:296:12)\n      at node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n      at Test.Object.&lt;anonymous&gt;.Test._assertFunction (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n      at Test.Object.&lt;anonymous&gt;.Test.assert (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n      at Server.localAssert (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n\n  ● :::NJSCPRHNKY_TEST_SUITE_1:::Tests for Operations on Todo Application database › :::NJSCPRHNKY_TEST_8:::The database should be updated on the post request\n\n    expect(received).toEqual(expected) // deep equality\n\n    Expected: {\&quot;id\&quot;: 6, \&quot;priority\&quot;: \&quot;MEDIUM\&quot;, \&quot;status\&quot;: \&quot;TO DO\&quot;, \&quot;todo\&quot;: \&quot;Watch Movie\&quot;}\n    Received: undefined\n\n      139 |   });\n      140 |   it(\&quot;:::NJSCPRHNKY_TEST_8:::The database should be updated on the post request\&quot;, async () =&gt; {\n    &gt; 141 |     expect(await database.get(`SELECT * FROM todo WHERE id=6`)).toEqual({\n          |                                                                 ^\n      142 |       id: 6,\n      143 |       todo: \&quot;Watch Movie\&quot;,\n      144 |       priority: \&quot;MEDIUM\&quot;,\n\n      at Object.&lt;anonymous&gt; (index.test.js:141:65)\n\n  ● :::NJSCPRHNKY_TEST_SUITE_1:::Tests for Operations on Todo Application database › :::NJSCPRHNKY_TEST_9:::The PUT request with path &#x27;/todos/:todoId/&#x27; with &#x27;status&#x27; property in the body should return the &#x27;Status Updated&#x27; text as a response upon success\n\n    expected 200 \&quot;OK\&quot;, got 404 \&quot;Not Found\&quot;\n\n      153 |         status: \&quot;IN PROGRESS\&quot;,\n      154 |       })\n    &gt; 155 |       .expect(200)\n          |        ^\n      156 |       .expect(\&quot;Status Updated\&quot;)\n      157 |       .then((error, response) =&gt; {\n      158 |         done();\n\n      at Object.&lt;anonymous&gt; (index.test.js:155:8)\n      ----\n      at Test.Object.&lt;anonymous&gt;.Test._assertStatus (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:296:12)\n      at node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n      at Test.Object.&lt;anonymous&gt;.Test._assertFunction (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n      at Test.Object.&lt;anonymous&gt;.Test.assert (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n      at Server.localAssert (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n\n  ● :::NJSCPRHNKY_TEST_SUITE_1:::Tests for Operations on Todo Application database › :::NJSCPRHNKY_TEST_10:::The PUT request with path &#x27;/todos/:todoId/&#x27; with &#x27;priority&#x27; property in the body should return the &#x27;Priority Updated&#x27; text as a response upon success\n\n    expected 200 \&quot;OK\&quot;, got 404 \&quot;Not Found\&quot;\n\n      167 |         priority: \&quot;HIGH\&quot;,\n      168 |       })\n    &gt; 169 |       .expect(200)\n          |        ^\n      170 |       .expect(\&quot;Priority Updated\&quot;)\n      171 |       .then((error, response) =&gt; {\n      172 |         done();\n\n      at Object.&lt;anonymous&gt; (index.test.js:169:8)\n      ----\n      at Test.Object.&lt;anonymous&gt;.Test._assertStatus (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:296:12)\n      at node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n      at Test.Object.&lt;anonymous&gt;.Test._assertFunction (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n      at Test.Object.&lt;anonymous&gt;.Test.assert (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n      at Server.localAssert (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n\n  ● :::NJSCPRHNKY_TEST_SUITE_1:::Tests for Operations on Todo Application database › :::NJSCPRHNKY_TEST_11:::The PUT request with path &#x27;/todos/:todoId/&#x27; with &#x27;todo&#x27; property in the body should return the &#x27;Todo Updated&#x27; text as a response upon success\n\n    expected 200 \&quot;OK\&quot;, got 404 \&quot;Not Found\&quot;\n\n      181 |         todo: \&quot;Priority task\&quot;,\n      182 |       })\n    &gt; 183 |       .expect(200)\n          |        ^\n      184 |       .expect(\&quot;Todo Updated\&quot;)\n      185 |       .then((error, response) =&gt; {\n      186 |         done();\n\n      at Object.&lt;anonymous&gt; (index.test.js:183:8)\n      ----\n      at Test.Object.&lt;anonymous&gt;.Test._assertStatus (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:296:12)\n      at node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n      at Test.Object.&lt;anonymous&gt;.Test._assertFunction (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n      at Test.Object.&lt;anonymous&gt;.Test.assert (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n      at Server.localAssert (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n\n  ● :::NJSCPRHNKY_TEST_SUITE_1:::Tests for Operations on Todo Application database › :::NJSCPRHNKY_TEST_12:::The database should be updated on the put request\n\n    expect(received).toEqual(expected) // deep equality\n\n    Expected: {\&quot;id\&quot;: 6, \&quot;priority\&quot;: \&quot;HIGH\&quot;, \&quot;status\&quot;: \&quot;IN PROGRESS\&quot;, \&quot;todo\&quot;: \&quot;Priority task\&quot;}\n    Received: undefined\n\n      189 |\n      190 |   it(\&quot;:::NJSCPRHNKY_TEST_12:::The database should be updated on the put request\&quot;, async () =&gt; {\n    &gt; 191 |     expect(await database.get(`SELECT * FROM todo WHERE id=6`)).toEqual({\n          |                                                                 ^\n      192 |       id: 6,\n      193 |       todo: \&quot;Priority task\&quot;,\n      194 |       priority: \&quot;HIGH\&quot;,\n\n      at Object.&lt;anonymous&gt; (index.test.js:191:65)\n\n  ● :::NJSCPRHNKY_TEST_SUITE_1:::Tests for Operations on Todo Application database › :::NJSCPRHNKY_TEST_13:::The DELETE request with path &#x27;/todos/:todoId/&#x27; should return &#x27;Todo Deleted&#x27; text as a response upon success\n\n    expected 200 \&quot;OK\&quot;, got 404 \&quot;Not Found\&quot;\n\n      200 |     appInstance\n      201 |       .delete(\&quot;/todos/6/\&quot;)\n    &gt; 202 |       .expect(200)\n          |        ^\n      203 |       .expect(\&quot;Todo Deleted\&quot;)\n      204 |       .then((error, response) =&gt; {\n      205 |         done();\n\n      at Object.&lt;anonymous&gt; (index.test.js:202:8)\n      ----\n      at Test.Object.&lt;anonymous&gt;.Test._assertStatus (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:296:12)\n      at node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n      at Test.Object.&lt;anonymous&gt;.Test._assertFunction (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n      at Test.Object.&lt;anonymous&gt;.Test.assert (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n      at Server.localAssert (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n&quot;
+    }
+  ],
+  &quot;wasInterrupted&quot;: false
+}</div></body></html>
