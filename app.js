@@ -43,7 +43,7 @@ app.get('/todos/', async (request, response) => {
   let data = null
   let {search_q = '', priority, status} = request.query
   switch (true) {
-    case hasPriorityAndStatus:
+    case hasPriorityAndStatus(request.query):
       getTodoQuery = `
     SELECT
      * 
@@ -55,12 +55,12 @@ app.get('/todos/', async (request, response) => {
     AND todo LIKE '%${search_q}%'
     `
       break
-    case hasPriority:
+    case hasPriority(request.query):
       getTodoQuery = `
     select * from todo where todo like '%${search_q}%' and priority='${priortiy}'
     `
       break
-    case hasStatus:
+    case hasStatus(request.query):
       getTodoQuery = `
     select * from todo where todo like '%${search_q}%' and status='${status}'
     `
